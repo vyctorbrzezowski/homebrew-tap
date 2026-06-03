@@ -1,16 +1,27 @@
 # Vyctorbrzezowski Tap
 
-## How do I install these formulae?
+Homebrew tap for small macOS apps and tools.
 
-`brew install vyctorbrzezowski/tap/<formula>`
+## Floaty
 
-Or `brew tap vyctorbrzezowski/tap` and then `brew install <formula>`.
+Install Floaty, a tiny macOS picture-in-picture lyrics window for Spotify:
 
-Or, in a `brew bundle` `Brewfile`:
+```sh
+brew install --cask vyctorbrzezowski/tap/floaty
+```
+
+Or tap once:
+
+```sh
+brew tap vyctorbrzezowski/tap
+brew install --cask floaty
+```
+
+In a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "vyctorbrzezowski/tap"
-brew "<formula>"
+cask "floaty"
 ```
 
 ## Documentation
